@@ -1,5 +1,5 @@
-import logoWhite from './fx-wolf-weiß.png';
-import logoBlack from './fx-wolf-schwarz.png';
+import logoWhite from './logoWhite.png';
+import logoBlack from './logoBlack.png';
 import logoTextWhite from './font-white.png';
 import logoTextBlack from './font-black.png';
 

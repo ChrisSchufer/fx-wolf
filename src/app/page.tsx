@@ -5,7 +5,7 @@ import {LampContainer} from '@/components/ui/lamp';
 import {AnimatePresence, motion} from 'framer-motion';
 import Image from 'next/image';
 import React from 'react';
-import {logoWhite} from '../../public/img';
+import {logoBlack, logoWhite} from '../../public/img';
 
 export default function Home() {
   const [hovered, setHovered] = React.useState(false);
@@ -24,7 +24,7 @@ export default function Home() {
       >
         <div className="md:text-2xl text-2xl font-medium text-center text-white relative z-20 max-w-2xl mx-auto">
           <Image
-            src={logoWhite}
+            src={logoBlack}
             alt="fx-wolf logo"
           />
         </div>
